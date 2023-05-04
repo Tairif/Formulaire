@@ -9,30 +9,29 @@
 </head>
 <body>
     <section>
-        <img src="images.jpg">
+        <img src="images.jpg" alt="">
         <form method="get" action="index.html">
-        
             <div>
-                <label for="nom">Nom</label>
+                <label for="nom" id="forum">Nom</label>
                 <input type="text" name="nom">
             </div>
 
             <div>
-                <label for="prenom">Prenom</label>
+                <label for="prenom" id="forum">Prenom</label>
                 <input type="text" name="prenom">    
             </div>
             <div>
-            <label for="email">Email</label>
+            <label for="email" id="forum">Email</label>
             <input type="email" name="email">
             </div>
 
             <div>
-                <label for="pass">Password</label>
+                <label for="pass" id="forum">Password</label>
                 <input type="password" name="pass">
             </div>
 
             <div>
-                <label for="question">Votre question concerne</label>
+                <label for="question" id="forum">Votre question concerne</label>
             <select name="question">
                 <option value="compta">Comptabilité</option>
                 <option value="bug">Bug</option>
@@ -41,7 +40,7 @@
             </div>
 
             <div>
-                <label for="infosup">Informations supplémentaires : </label>
+                <label for="infosup" id="forum">Informations supplémentaires : </label>
                 <textarea name="infosup" cols="30" rows="10"></textarea>
             </div>
             <input type="submit">

@@ -32,6 +32,7 @@ img {
     min-width: 300px;
     width: 49.7%;
     object-fit: fill;
+    height: 600px;
 }
 
 section {
