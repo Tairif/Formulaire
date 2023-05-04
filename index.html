@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="images.jpg">
+        <form method="get" action="index.html">
+        
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom">
+            </div>
+
+            <div>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom">    
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            </div>
+
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass">
+            </div>
+
+            <div>
+                <label for="question">Votre question concerne</label>
+            <select name="question">
+                <option value="compta">Comptabilité</option>
+                <option value="bug">Bug</option>
+                <option value="contact">Contact</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="infosup">Informations supplémentaires : </label>
+                <textarea name="infosup" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
